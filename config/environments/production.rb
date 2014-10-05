@@ -79,4 +79,7 @@ Rails.application.configure do
   # Required for Heroku
   # Note to set this to actual host name
   config.action_mailer.default_url_options = { host: 'jtony-pinteresting.herokuapp.com', port: 3000 }
+
+  #To allow Glyphicons to show in Heroku.
+  config.assets.compile = true
 end
